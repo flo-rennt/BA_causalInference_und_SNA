@@ -129,12 +129,34 @@ def visualize_communities(G, communities, title, filename):
     plt.show()
     print(f"Visualisierung gespeichert als {filename}\n")
 
+def visualize_graph(G, title, filename):
+    pos = nx.spring_layout(G, k=0.4, iterations=50, seed=2)
+    plt.figure(figsize=(12, 8))
+    nx.draw(
+        G,
+        pos=pos,
+        node_size=150,
+        node_color="grey",
+        with_labels=False,
+        font_size=14,
+        font_color="black",
+        alpha=1.0,
+    )
+    plt.title(title)
+    plt.savefig(filename, dpi=300)
+    plt.show()
+    print(f"Visualisierung gespeichert als {filename}\n")
+
+
+#Visualisierung Graph
+visualize_graph(G, "Graph vor Community Detection", "tiktok-graph.jpg")
 # Visualisierung für Louvain
 visualize_communities(G, louvain_communities.values(), "Louvain Community Detection", "louvain_communities.jpg")
 # Visualisierung für Girvan-Newman
 visualize_communities(G, girvan_newman_communities, "Girvan-Newman Community Detection", "girvan_newman_communities.jpg")
 # Visualisierung für Walktrap
 visualize_communities(G, walktrap_communities, "Walktrap Community Detection", "walktrap_communities.jpg")
+
 
 # ------ Zusammenfassung ------ #
 
