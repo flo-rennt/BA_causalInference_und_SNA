@@ -9,19 +9,19 @@ import itertools
 # ------ Graph aus TikTok Daten erstellen ------ #
 
 # Daten einlesen
-data = pd.read_csv("tt_outlet_sample.csv")
+data = pd.read_csv("daten-syn.csv")
 # Standardisierung
-data['id-account'] = data['id-account'].astype(str).str.strip()
+data['account-id'] = data['account-id'].astype(str).str.strip()
 data['follows'] = data['follows'].astype(str).str.strip()
 
 G = nx.DiGraph()
-G.add_nodes_from(data['id-account'].unique())
+G.add_nodes_from(data['account-id'].unique())
 # Kanten über Follow-Relation
 for _, row in data.iterrows():
-    follower = row['id-account']
+    follower = row['account-id']
     follows = [f.strip() for f in row['follows'].split(',') if f.strip()]
     for followee in follows:
-        G.add_edge(follower, followee)
+        G.add_edge(followee, follower)
 
 print("== Grundlegende Graphinformationen ==")
 print(f"Anzahl der Knoten: {G.number_of_nodes()}")
@@ -117,12 +117,12 @@ def visualize_communities(G, communities, title, filename):
     nx.draw(
         G,
         pos=pos,
-        node_size=250,
+        node_size=150,
         node_color=node_colors,
-        with_labels=True,
+        with_labels=False,
         font_size=14,
         font_color="black",
-        alpha=0.8,
+        alpha=1.0,
     )
     plt.title(title)
     plt.savefig(filename, dpi=300)
