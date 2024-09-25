@@ -5,6 +5,7 @@
 Um zu evaluieren wie viele Angriffe während der 313 Internetausfälle stattfanden, habe ich die Daten der Studie ausgewertet. Die Daten sind veröffentlicht unter [1] (am Ende der Seite). Aufgrund ihrer Größe können diese nicht im Github Ordner mit abgelegt werden und müssen unter [1] abgerufen werden.
 
 Vorgehen
+
 0. Datendownload von [1]
 1. Python Script load\_dta.py ausführen. Es überträgt die .dta Dateien im DATA-Ordner in csv-Dateien.
 2. Die für uns relevanten Daten befinden sich in reproduction\_panel_clean.csv
