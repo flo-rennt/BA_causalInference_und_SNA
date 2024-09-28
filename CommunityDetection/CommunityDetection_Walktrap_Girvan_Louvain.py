@@ -119,9 +119,8 @@ def visualize_communities(G, communities, title, filename):
         pos=pos,
         node_size=150,
         node_color=node_colors,
+        edge_color="grey",
         with_labels=False,
-        font_size=14,
-        font_color="black",
         alpha=1.0,
     )
     plt.title(title)
@@ -136,10 +135,9 @@ def visualize_graph(G, title, filename):
         G,
         pos=pos,
         node_size=150,
-        node_color="grey",
+        node_color="darkblue",
         with_labels=False,
-        font_size=14,
-        font_color="black",
+        edge_color="grey",
         alpha=1.0,
     )
     plt.title(title)
