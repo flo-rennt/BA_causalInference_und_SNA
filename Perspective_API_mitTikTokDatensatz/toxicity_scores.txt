@@ -1,6 +1,6 @@
 ID	Toxicity Score (%)
 ------------------------------
-1	Leerer Kommentar
+1	-
 2	10.52%
 3	28.31%
 4	13.21%
@@ -8,77 +8,77 @@ ID	Toxicity Score (%)
 6	10.70%
 7	7.45%
 8	4.17%
-9	Leerer Kommentar
+9	-
 10	25.46%
-11	Leerer Kommentar
+11	-
 12	15.10%
 13	11.29%
-14	Leerer Kommentar
+14	-
 15	3.62%
 16	7.85%
 17	10.00%
 18	30.43%
-19	Leerer Kommentar
+19	-
 20	11.04%
-21	Leerer Kommentar
+21	-
 22	5.38%
 23	50.94%
-24	Leerer Kommentar
-25	Leerer Kommentar
+24	-
+25	-
 26	28.55%
 27	1.47%
-28	Leerer Kommentar
-29	Leerer Kommentar
-30	Leerer Kommentar
+28	-
+29	-
+30	-
 31	10.31%
 32	2.30%
 33	22.58%
 34	9.70%
 35	25.46%
 36	18.27%
-37	Leerer Kommentar
-38	Leerer Kommentar
-39	Leerer Kommentar
-40	Leerer Kommentar
-41	Leerer Kommentar
-42	Leerer Kommentar
+37	-
+38	-
+39	-
+40	-
+41	-
+42	-
 43	24.28%
 44	15.99%
 45	16.33%
-46	Leerer Kommentar
-47	Leerer Kommentar
+46	-
+47	-
 48	17.98%
 49	25.46%
-50	Leerer Kommentar
-51	Leerer Kommentar
+50	-
+51	-
 52	3.78%
 53	8.00%
 54	19.69%
-55	Leerer Kommentar
+55	-
 56	4.86%
 57	5.58%
-58	Leerer Kommentar
+58	-
 59	15.10%
-60	Leerer Kommentar
+60	-
 61	16.25%
-62	Leerer Kommentar
-63	Leerer Kommentar
+62	-
+63	-
 64	9.61%
 65	5.38%
-66	Leerer Kommentar
-67	Leerer Kommentar
+66	-
+67	-
 68	6.14%
 69	11.26%
 70	4.49%
-71	Leerer Kommentar
-72	Leerer Kommentar
+71	-
+72	-
 73	36.10%
-74	Leerer Kommentar
-75	Leerer Kommentar
+74	-
+75	-
 76	25.46%
 77	11.38%
 78	5.48%
-79	Leerer Kommentar
+79	-
 80	10.78%
 81	37.75%
 82	26.48%
@@ -86,17 +86,17 @@ ID	Toxicity Score (%)
 84	18.46%
 85	23.52%
 86	29.95%
-87	Leerer Kommentar
-88	Leerer Kommentar
-89	Leerer Kommentar
+87	-
+88	-
+89	-
 90	2.40%
 91	4.34%
 92	17.89%
 93	14.26%
 94	19.89%
-95	Leerer Kommentar
-96	Leerer Kommentar
-97	Leerer Kommentar
+95	-
+96	-
+97	-
 98	15.55%
 99	0.02%
 100	30.50%

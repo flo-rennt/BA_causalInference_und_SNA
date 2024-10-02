@@ -56,6 +56,6 @@ with open(output_file_path, 'w', encoding='utf-8') as output_file:
                     output_file.write(f"{comment_id}\tFehler: {str(e)}\n")
             else:
                 # Leere Kommentare überspringen und in die Datei schreiben
-                output_file.write(f"{comment_id}\tLeerer Kommentar\n")
+                output_file.write(f"{comment_id}\t-\n")
 
 print(f"Analyse abgeschlossen. Ergebnisse in '{output_file_path}' gespeichert.")

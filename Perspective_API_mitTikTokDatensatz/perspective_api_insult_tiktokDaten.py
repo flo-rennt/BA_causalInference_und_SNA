@@ -51,6 +51,6 @@ with open(output_file_path, 'w', encoding='utf-8') as output_file:
                 except Exception as e:
                     output_file.write(f"{comment_id}\tFehler: {str(e)}\n")
             else:
-                output_file.write(f"{comment_id}\tLeerer Kommentar\n")
+                output_file.write(f"{comment_id}\t-\n")
 
 print(f"Die Ergebnisse der Identity-Attack Analyse sind in '{output_file_path}' gespeichert.")

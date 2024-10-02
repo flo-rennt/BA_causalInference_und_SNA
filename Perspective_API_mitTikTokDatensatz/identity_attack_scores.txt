@@ -1,6 +1,6 @@
 ID	Identity Attack Score (%)
 ------------------------------
-1	Leerer Kommentar
+1	-
 2	1.12%
 3	9.16%
 4	2.66%
@@ -8,77 +8,77 @@ ID	Identity Attack Score (%)
 6	1.63%
 7	0.61%
 8	0.92%
-9	Leerer Kommentar
+9	-
 10	3.92%
-11	Leerer Kommentar
+11	-
 12	1.60%
 13	1.96%
-14	Leerer Kommentar
+14	-
 15	0.38%
 16	3.15%
 17	2.60%
 18	4.93%
-19	Leerer Kommentar
+19	-
 20	7.59%
-21	Leerer Kommentar
+21	-
 22	0.53%
 23	49.86%
-24	Leerer Kommentar
-25	Leerer Kommentar
+24	-
+25	-
 26	23.16%
 27	0.24%
-28	Leerer Kommentar
-29	Leerer Kommentar
-30	Leerer Kommentar
+28	-
+29	-
+30	-
 31	2.00%
 32	0.20%
 33	7.09%
 34	2.58%
 35	2.20%
 36	13.81%
-37	Leerer Kommentar
-38	Leerer Kommentar
-39	Leerer Kommentar
-40	Leerer Kommentar
-41	Leerer Kommentar
-42	Leerer Kommentar
+37	-
+38	-
+39	-
+40	-
+41	-
+42	-
 43	8.34%
 44	0.95%
 45	0.96%
-46	Leerer Kommentar
-47	Leerer Kommentar
+46	-
+47	-
 48	12.32%
 49	13.16%
-50	Leerer Kommentar
-51	Leerer Kommentar
+50	-
+51	-
 52	0.55%
 53	1.72%
 54	5.20%
-55	Leerer Kommentar
+55	-
 56	0.77%
 57	0.54%
-58	Leerer Kommentar
+58	-
 59	3.17%
-60	Leerer Kommentar
+60	-
 61	10.22%
-62	Leerer Kommentar
-63	Leerer Kommentar
+62	-
+63	-
 64	3.58%
 65	1.11%
-66	Leerer Kommentar
-67	Leerer Kommentar
+66	-
+67	-
 68	4.54%
 69	0.80%
 70	1.00%
-71	Leerer Kommentar
-72	Leerer Kommentar
+71	-
+72	-
 73	10.22%
-74	Leerer Kommentar
-75	Leerer Kommentar
+74	-
+75	-
 76	9.91%
 77	5.09%
 78	0.53%
-79	Leerer Kommentar
+79	-
 80	0.95%
 81	10.82%
 82	10.24%
@@ -86,17 +86,17 @@ ID	Identity Attack Score (%)
 84	1.52%
 85	1.18%
 86	33.68%
-87	Leerer Kommentar
-88	Leerer Kommentar
-89	Leerer Kommentar
+87	-
+88	-
+89	-
 90	0.34%
 91	1.07%
 92	3.33%
 93	8.50%
 94	4.67%
-95	Leerer Kommentar
-96	Leerer Kommentar
-97	Leerer Kommentar
+95	-
+96	-
+97	-
 98	1.13%
 99	0.00%
 100	14.45%
