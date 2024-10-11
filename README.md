@@ -17,6 +17,9 @@ Vorgehen
 
 ## CommunityDetection
 
-Der Datensatz datensatz.csv mit TikTokDaten wird durch das Python-Skript datensatzGenerator.py um die Spalten account-id und follows ergänzt. 
-Auf diesem nun bzgl. Follow-Relation synthetischen Datensatz daten-syn.csv werden die Algorithmen "Walktrap", "Louvain" und "Girvan-Newman" ausgeführt: CommunityDetection\_Walktrap\_Girvan\_Louvain.py
-Die Ergebnisse sind in den jpgs visualisiert.
+Das Pythonskript generate\_community\_following.py modifiziert den Datensatz Final\_User\_Data um eine geeignetere Follow-Relation innerhalb und zwischen den Communities. Das Ergebnis wird in commDet.py gelesen und darauf werden die Algorithmen "Walktrap", "Louvain" und "Girvan-Newman" ausgeführt. Die Ergebnisse sind in den jpgs visualisiert.
+
+## Perspective API
+
+Der Datensatz tt\outlet\_sample.csv im Ordner Perspective\_API\_mitTikTokDatensatz enthält den vom Fachgebiet bereit gestellten Datensatz. Die beiden Python-Dateien evaluieren den Inhalt auf *toxicity* und *identity attack*. Die Ergebnisse sind tabellarisch in den beiden .txt Dateien gespeichert. Für mehr Informationen: https://developers.perspectiveapi.com/s/about-the-api?language=en_US
+Für das Set-Up: https://developers.perspectiveapi.com/s/docs-get-started?language=en_US
